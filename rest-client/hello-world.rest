@@ -1,0 +1,24 @@
+### get hello word
+
+GET http://localhost:3000/
+
+### post no barra
+POST http://localhost:3000/
+
+### post teste
+POST http://localhost:3000/teste
+
+### put test permissions
+PUT http://localhost:3000/teste/abc123/permission/asdf
+
+### post com body
+POST http://localhost:3000/body
+Content-Type: application/json
+
+{
+    "sunda": 123,
+    "xpto": "asdf"
+}
+
+### GET queryString
+GET http://localhost:3000/qs?sunda=bar&xpto=123

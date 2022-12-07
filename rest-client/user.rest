@@ -1,0 +1,11 @@
+### GET
+
+GET http://localhost:3000/user
+
+### POST
+POST http://localhost:3000/user/create
+Content-Type: application/json
+
+{
+    "name" : "ze das couves"
+}
